@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WynneFix - Secure</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔧 WynneFix</h1>
+    <p>Your AI-powered repair assistant. Describe any tool or machine problem below.</p>
+
+    <textarea id="userInput" placeholder="e.g. My chainsaw won’t start after winter storage."></textarea>
+    <button onclick="getFix()">Get Fix</button>
+
+    <div id="responseBox" class="response-box hidden">
+      <h3>AI Diagnosis & Fix:</h3>
+      <pre id="responseText"></pre>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
